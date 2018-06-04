@@ -6,6 +6,7 @@ AccStartWnd::AccStartWnd(QWidget *parent, database* p_database, access acc) :
     ui(new Ui::AccStartWnd)
 {
     ui->setupUi(this);
+    ui->btn_applyfilter->setVisible(false);
     ui->btn_resetfilter->setVisible(false);
     ui->dateEditfrom->setVisible(false);
     ui->dateEdit_to->setVisible(false);
